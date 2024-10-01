@@ -1,18 +1,19 @@
 
 # PRÁCTICA 1: Implementación de Funciones Primitivas Recursivas
 
-Este proyecto es parte de la asignatura Complejidad Computacional en el 4º curso de Ingeniería Informática de la Universidad de La Laguna. El código implementa y utiliza Funciones Primitivas Recursivas (FPR) como Cero, Sucesor, Proyección, Suma, Producto, y Potencia, en un programa cliente que calcula la potencia de un número usando la definición recursiva.
+Este proyecto es parte de la asignatura Complejidad Computacional en el 4º curso de Ingeniería Informática de la Universidad de La Laguna. 
+El código implementa y utiliza Funciones Primitivas Recursivas (FPR) como Cero, Sucesor, Proyección, Suma, Producto, y Potencia, en un programa cliente que calcula la potencia de un número usando la definición recursiva.
 
 
 ## Estructura del Proyecto
 
 El proyecto está organizado en las siguientes carpetas:
 
-bin/           # Ejecutable final del proyecto
-include/       # Archivos de cabecera (.h) con las declaraciones de clases
-objects/       # Archivos objeto (.o) generados durante la compilación
-src/           # Archivos fuente (.cc) con las definiciones de clases
-Makefile       # Script para automatizar la compilación del proyecto
+ - bin/           # Ejecutable final del proyecto
+ - include/       # Archivos de cabecera (.h) con las declaraciones de clases
+ - objects/       # Archivos objeto (.o) generados durante la compilación
+ - src/           # Archivos fuente (.cc) con las definiciones de clases
+ - Makefile       # Script para automatizar la compilación del proyecto
 
 ## Compilación
 
@@ -40,5 +41,5 @@ Resultado: 8
 Número de llamadas a funciones: 12
 
 ## Autor
-Roberto Báez Herrera
+Roberto Báez Herrera.
 Estudiante de Ingeniería Informática en la Universidad de La Laguna.
