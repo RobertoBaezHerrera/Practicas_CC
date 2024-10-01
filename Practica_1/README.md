@@ -20,9 +20,9 @@ El proyecto está organizado en las siguientes carpetas:
 
 El proyecto utiliza un archivo Makefile para facilitar la compilación.
 
- - Compilar proyecto completo:
+ - Compilar proyecto completo:  
     **make**
- - Eliminar archivos intermedios (objetos) y el ejecutable:
+ - Eliminar archivos intermedios (objetos) y el ejecutable:  
     **make clean**
 
 
