@@ -18,10 +18,12 @@ Suma::Suma() = default;
 
 int Suma::calcular(std::vector<int> valores) {
   FPR::IncrementarContador();
+  // Ecuación base
   if (valores[1] == 0) {
     Proyeccion proyeccion(1, 1);
     return proyeccion.calcular({valores[0]});
   }
+  // Ecuación de recursión
   Suma suma;
   --valores[1];
   Sucesor sucesor;

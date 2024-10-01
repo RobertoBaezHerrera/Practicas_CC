@@ -18,10 +18,12 @@ Producto::Producto() = default;
 
 int Producto::calcular(std::vector<int> valores) {
   FPR::IncrementarContador();
+  // Ecuación base
   if (valores[1] == 0) {
     Cero cero;
     return cero.calcular(valores[0]);
   }
+  // Ecuación de recursión
   Suma suma;
   Proyeccion proyeccion31(3, 1);
   Proyeccion proyeccion33(3, 3);

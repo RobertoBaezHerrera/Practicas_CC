@@ -16,16 +16,6 @@
 
 #include "potencia.h"
 
-int FPRPotencia(const std::vector<int>& valores) {
-  // Si y = 0, x^y siempre será 1
-  if (valores[1] == 0) {
-    Uno uno;
-    return uno.calcular(valores[0]);
-  }
-  Potencia potencia;
-  return potencia.calcular(valores);
-}
-
 int main() {
   std::cout
       << "Para calcular la función potencia(x,y), introduzca el valor x e y\n";
@@ -33,7 +23,8 @@ int main() {
   std::cin >> valor_x >> valor_y;
   // Funciones Primitivas Recursivas
   std::vector<int> valores = {valor_x, valor_y};
-  std::cout << "Resultado: " << FPRPotencia(valores);
+  Potencia potencia;
+  std::cout << "Resultado: " << potencia.calcular(valores);
   std::cout << "\nNúmero de llamadas a funciones: " << FPR::ObtenerContador() << std::endl;
   return EXIT_SUCCESS;
 }
