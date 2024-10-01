@@ -7,7 +7,7 @@
  * Práctica 1
  * @author Roberto Báez Herrera
  * Correo: alu0101497013@ull.edu.es
- * @date 03/09/2024
+ * @date 03/10/2024
  * @file practica_1.cc: programa cliente.
  *
  */
@@ -33,6 +33,7 @@ int main() {
   std::cin >> valor_x >> valor_y;
   // Funciones Primitivas Recursivas
   std::vector<int> valores = {valor_x, valor_y};
-  std::cout << FPRPotencia(valores) << "\nNúmero de llamadas a funciones: " << FPR::ObtenerContador() << std::endl;
+  std::cout << "Resultado: " << FPRPotencia(valores);
+  std::cout << "\nNúmero de llamadas a funciones: " << FPR::ObtenerContador() << std::endl;
   return EXIT_SUCCESS;
 }

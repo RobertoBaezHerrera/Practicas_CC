@@ -7,8 +7,8 @@
  * Práctica 1
  * @author Roberto Báez Herrera
  * Correo: alu0101497013@ull.edu.es
- * @date 03/09/2024
- * @file zero.h: clase definida para la función primitiva recursiva cero z(x)
+ * @date 03/10/2024
+ * @file fpr.h: declaración de la clase padre FPR
  *
  */
 
