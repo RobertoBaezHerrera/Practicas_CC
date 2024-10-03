@@ -16,8 +16,7 @@
 
 Proyeccion::Proyeccion() = default;
 
-Proyeccion::Proyeccion(int tamano, int indice)
-    : tamano_(tamano), indice_(indice) {}
+Proyeccion::Proyeccion(int tamano, int indice) : tamano_(tamano), indice_(indice) { }
 
 int Proyeccion::calcular(std::vector<int> valores) {
   FPR::IncrementarContador();

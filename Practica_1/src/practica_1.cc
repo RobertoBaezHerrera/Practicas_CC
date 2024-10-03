@@ -17,10 +17,13 @@
 #include "potencia.h"
 
 int main() {
-  std::cout
-      << "Para calcular la función potencia(x,y), introduzca el valor x e y\n";
+  std::cout << "Para calcular la función potencia(x,y), introduzca el valor x e y\n";
   int valor_x, valor_y;
   std::cin >> valor_x >> valor_y;
+  if (valor_x <= 0 || valor_y <= 0) {
+    std::cerr << "Error: Los valores aceptados no son números naturales\n";
+    return EXIT_FAILURE;
+  }
   // Funciones Primitivas Recursivas
   std::vector<int> valores = {valor_x, valor_y};
   Potencia potencia;

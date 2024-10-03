@@ -30,7 +30,6 @@ int Potencia::calcular(std::vector<int> valores) {
   --valores[1];
   Potencia potencia;
   std::vector<int> fpr = {valores[0], valores[1], potencia.calcular(valores)};
-  std::vector<int> combinacion_proyecciones = {proyeccion31.calcular(fpr),
-                                               proyeccion33.calcular(fpr)};
+  std::vector<int> combinacion_proyecciones = {proyeccion31.calcular(fpr), proyeccion33.calcular(fpr)};
   return producto.calcular(combinacion_proyecciones);
 }
